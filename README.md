@@ -20,7 +20,7 @@ Since DSM 7 doesn't allow to install packages that require root permission if th
 ```
 sudo /var/packages/netcoresdk4dsm/scripts/run_as_root
 ```
-This is neccesary for editing /etc/profile and /root/.profile files since NET on linux has to have **DOTNET_ROOT** enviroment variable set, in addition to that one few more variable are set, also it will add path to /var/packages/aspnetcore4dsm/target folder to the **PATH** enviroment variable.
+This is neccesary for editing /etc/profile and /root/.profile files since NET on linux has to have **DOTNET_ROOT** enviroment variable set, in addition to that one few more variable are set, also it will add path to /var/packages/netcoresdk4dsm/target folder to the **PATH** enviroment variable.
 
 ## Contributing
 
