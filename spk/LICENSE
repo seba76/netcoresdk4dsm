@@ -1,0 +1,14 @@
+LICENSE 
+===== 
+THIS PACKAGE IS A COMMUNITY PROJECT!
+USE IT AT YOUR OWN RISK, WE WILL NOT TAKE RESPONSABILITY 
+FOR ANY DAMAGE AND/OR DATA LOSS RESULTING FROM INSTALLING THIS PACKAGE! 
+
+To complete installation you have to execute:
+sudo /var/packages/netcoresdk4dsm/scripts/run_as_root
+
+CHANGELOG 
+===== 
+Version: 8.0.100
+First version of netcoresdk4dsm
+

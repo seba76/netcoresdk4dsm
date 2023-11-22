@@ -1,0 +1,7 @@
+#!/bin/sh
+
+. `dirname $0`/common
+
+postInst
+
+exit 0

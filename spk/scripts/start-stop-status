@@ -1,0 +1,25 @@
+#!/bin/sh
+
+. `dirname $0`/common
+
+case $1 in
+	start)
+		if [ "$EUID" -ne 0 ]; then
+			echo "You need to run this as root!"
+			exit 0
+		fi
+		
+		checkEnvironment
+		exit 0
+		;;
+	stop)
+		exit 0
+		;;
+	status)
+		GET_STATUS
+		exit $?
+		;;
+	log)
+		exit 0
+		;;
+esac
